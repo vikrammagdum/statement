@@ -1,0 +1,41 @@
+var prompt=require("prompt-sync")();
+// user input ke liye......
+
+let n=prompt("enter your drink choice::")
+// user input....
+
+console.log("menu card::")
+// apply to switch case.....
+
+
+switch(n){
+
+    case '1' :
+            console.log("coffee")
+            break;
+
+    case '2' :
+            console.log("cold coffee")
+            break;
+
+    case '3' :
+            console.log("milk shake")
+            break;
+            
+    case '4' :
+             console.log("tea")
+            break;
+                
+    case '5' :
+            console.log("cold water")
+            break;
+                    
+     case '6' :
+            console.log("beer")
+            break;
+                        
+                        
+     default:
+            console.log("wrong input")
+}
+
